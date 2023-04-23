@@ -42,9 +42,9 @@ class evamaria(Client):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '6620972'))
-API_HASH = environ.get('API_HASH', '3f6835286b03e000ab6d71b37cc35b92')
-BOT_TOKEN = environ.get('BOT_TOKEN', '5039178288:AAGI7kS0w_na9vkTEGLFy7ydMKSSFLEoeUM')
+API_ID = int(environ.get('API_ID', '20781152'))
+API_HASH = environ.get('API_HASH', '0781163b5caac00db3268444e688d9e7')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6026755102:AAH9k6LCzgHhlG5ve_Em7Jbsd-g9ZiGDGLs')
 
 # Bot settings
 CACHE_TIME = 300
@@ -60,8 +60,8 @@ MELCOW_VID = environ.get('MELCOW_VID',"https://telegra.ph/file/b26637d70f3630a7e
 
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1745047302').split()] 
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-10012345688 -1001659557643 -1001895564079 -10027378293 -10073837388 -1001765720202').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5793708681').split()] 
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001607602953').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_grp = environ.get('AUTH_GROUP')
@@ -91,7 +91,7 @@ MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/CV_Offical")
 FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+TMCviP7KUY8yZjI9")
 MSG_ALRT = environ.get('MSG_ALRT', '𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐒𝐢𝐫 💜')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
-LOG_CHANNEL =-1001790957739
+LOG_CHANNEL =-1001949597320
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'CV_linkZ')
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
