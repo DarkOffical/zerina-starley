@@ -1175,7 +1175,7 @@ async def auto_filter(client, msg, spoll=False):
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
     if imdb:
-      cap = TEMPLATE.format(
+        cap = TEMPLATE.format(
             query=search,
             title=imdb['title'],
             votes=imdb['votes'],
@@ -1201,6 +1201,7 @@ async def auto_filter(client, msg, spoll=False):
             year=imdb['year'],
             genres=imdb['genres'],
             poster=imdb['poster'],
+            plot=imdb['plot'],
             rating=imdb['rating'],
             url=imdb['url'],
             **locals()
