@@ -295,8 +295,6 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢ�
 🗞 ʟᴀɴɢᴜᴀɢᴇ : {languages}
 🌎 ᴄᴏᴜɴᴛʀʏ : {countries}
 
-📖 sᴛᴏʀʏ : {Plot}
-
 ©{message.chat.title}</b>
 """
 
